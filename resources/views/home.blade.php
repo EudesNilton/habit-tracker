@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name') }}</title>
+<x-layout>
+    <main class="py-10">
+        <h1>Olá, {{ $name }}!</h1>
+    </main>
 
-    @vite('resources/css/app.css')
-</head>
-<body>
-    
-</body>
-</html>
+</x-layout>
